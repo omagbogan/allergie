@@ -1,0 +1,45 @@
+.cacher {
+    display: none;
+}
+
+#information {
+    font-style: italic;
+    color: green;
+}
+
+.afficher {
+    display: block;
+}
+
+#resultat {
+    color: red;
+    font-weight: 700;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    color: rgb(15, 3, 56);
+    border-radius: 10px;
+    background-color: red;
+}
+h1 {
+    font-family: "Comic Relief", system-ui;
+    text-align: center;
+    color: orange;
+}
+div {
+    background: rgb(174, 231, 224);
+    font-family: "Google Sans", sans-serif;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    padding: 40px 40px;
+    
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
